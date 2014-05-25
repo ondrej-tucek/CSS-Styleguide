@@ -65,11 +65,9 @@ organization and speeds up the development process.
         opacity: .8;
     }
 
-### Add UTF-8 charset
-
-    @charset "UTF-8";
 
 ### Misc
+* Add UTF-8 charset `@charset "UTF-8";`
 * Don't use CSS @import, always combine all CSS files into one and minify it
 * No id's for styling, use classes and abstain from styling html elements
 * Use `js_` prefixed classes or id's for Javscript
@@ -95,11 +93,11 @@ organization and speeds up the development process.
 * Don't name breakpoints after actual devices (NO: `@inlcude breakpoint(table) {}`)
   YES: `@include breakpoint(bp1) {}`)
 * Nest media queries/Sass breakpoint mixin inside of selectors
-    .class {
-        padding: 10px;
+        .class {
+            padding: 10px;
 
-        @media (min-width: 500px) {
-            padding: 20px;
+            @media (min-width: 500px) {
+                padding: 20px;
+            }
         }
-    }
 * ...
