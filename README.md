@@ -2,7 +2,7 @@ CSS-Styleguide
 ==============
 
 A few simple guidelines and ideas I wrote down for myself to craft consistent
-and maintainable CSS.
+and maintainable CSS. // This is a living document and is subject to change.
 
 ### General things to consider
 * Think [OOCSS](https://github.com/stubbornella/oocss/tree/master/oocss) and
@@ -57,7 +57,7 @@ Keep files as simple, short and modular as possible.
 Each one has a heading:
 
     /*------------------------------------*\
-        $File Heading
+        File Heading
     \*------------------------------------*/
 
 Each section in a file has a heading:
