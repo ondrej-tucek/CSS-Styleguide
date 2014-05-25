@@ -1,7 +1,7 @@
 CSS-Styleguide
 ==============
 
-A few simple Guidelines and ideas I wrote done for myself to craft consistent
+A few simple guidelines and ideas I wrote down for myself to craft consistent
 and maintainable CSS.
 
 ### Comments notation
@@ -88,7 +88,11 @@ organization and speeds up the development process.
   them in lowercase letters
 * Don't use magic numbers. (`position: relative; top: 3px`)
 * Use (inline) SVG if possible
-* Use `rem` with `px` fallback
+* Use `rem` with `px` fallback and `px` value for html/body base `font-size`
+    @mixin font-size($font-size) {
+        font-size: $font-size +px;
+        font-size: $font-size / $base-font-size +rem;
+    }
 * Use a Sass mixin for site-wide breakpoints
 * Don't name breakpoints after actual devices (NO: `@inlcude breakpoint(table) {}`)
   YES: `@include breakpoint(bp1) {}`)
