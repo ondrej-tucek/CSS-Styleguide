@@ -68,7 +68,7 @@ organization and speeds up the development process.
 
 ### Misc
 * Add UTF-8 charset `@charset "UTF-8";`
-* Don't use CSS @import, always combine all CSS files into one and minify it
+* Don't use CSS `@import`, always combine all CSS files into one and minify it
 * No id's for styling, use classes and abstain from styling html elements
 * Use `js_` prefixed classes or id's for Javscript
 * Four spaces indenting
