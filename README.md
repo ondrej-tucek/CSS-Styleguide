@@ -126,6 +126,20 @@ This will result in style.min.css.
 
 [Read more.](http://martinwolf.org/2014/05/15/making-use-of-the-bem-naming-system/)
 
+### Don't nest deeper than three levels
+
+    .class {
+        margin-bottom: 20px;
+
+        .class-2 {
+            background-color: blue;
+
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
 ### Don't use id's for styling, only use classes and abstain from styling html elements
 Do:
 
@@ -155,6 +169,14 @@ But you can select html elements like `p`, `blockquote`, and other text-based on
 
     <nav class="page-nav" id="js_page-nav"></nav>
 
+### Add Sass `@extend`s at the beginning of properties
+
+    .class {
+        @extend %clearfix;
+
+        padding: 10px;
+        font-size: 1.3rem;
+    }
 
 ### Add UTF-8 charset
 
@@ -166,8 +188,6 @@ Sublime Text Settings:
 
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
-
-* Only three level deep nesting
 
 ### Line length: 80 characters
 Sublime Text Setting:
