@@ -93,11 +93,13 @@ organization and speeds up the development process.
 * Don't name breakpoints after actual devices (NO: `@inlcude breakpoint(table) {}`)
   YES: `@include breakpoint(bp1) {}`)
 * Nest media queries/Sass breakpoint mixin inside of selectors
-        .class {
-            padding: 10px;
 
-            @media (min-width: 500px) {
-                padding: 20px;
-            }
+    .class {
+        padding: 10px;
+
+        @media (min-width: 500px) {
+            padding: 20px;
         }
+    }
+
 * ...
