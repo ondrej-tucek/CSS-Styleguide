@@ -7,11 +7,12 @@ and maintainable CSS.
 ### General things to consider
 * Think [OOCSS](https://github.com/stubbornella/oocss/tree/master/oocss) and
 build reusable modules and patterns
+* Don't be afraid of additional non-semantic `div`'s and classes if they make
+sense and help organizing and modularizing the code. Think separation of content
+and container. #OOCSS
 * Responsive Design is more than just squishing the content. Think Progressive
 Enhancement/Responsible Responsive Design
 * Start mobile first
-* Don't be afraid of additional non-semantic `div`'s and classes if they make
-sense and help organizing and modularizing the code
 * Use inline SVGs if possible
 
 ### Declaration order
