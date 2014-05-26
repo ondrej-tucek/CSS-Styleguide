@@ -163,7 +163,7 @@ Don't do:
 
 But you can select html elements like `p`, `blockquote`, and other text-based ones.
 
-### Prefixed classes or id's which are used by Javscript
+### Prefixed classes or id's which are used by JavaScript
 
     <a class="more-link js_more-link">Read more...</a>
 
