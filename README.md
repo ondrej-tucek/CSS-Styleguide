@@ -60,21 +60,20 @@ Each one has a heading:
         File Heading
     \*------------------------------------*/
 
-Each section in a file has a heading:
+Each section in a file has a heading. I also use this style for all my explanatory comments
 
     /**
-    * Section Heading or multi-line comment
+    * Section heading or explanatory comment
     */
     .class {
         position: relative;
     }
 
 Each section is followed by two blank lines.
-Sometimes one just needs a short comment:
+Sometimes one just needs a short, inline comment:
 
-    /* Simple one-line comment */
     .class {
-        color: red;
+        color: red; /* This is red because it's important */
     }
 
 ### Always combine all SCSS files into one CSS file and minify it
