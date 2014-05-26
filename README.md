@@ -240,7 +240,7 @@ Use:
     }
 
 ### Don't use magic numbers
-... which just happen to work for ne particular reason.
+... which just happen to work for no particular reason.
 
     .class {
         position: relative;
