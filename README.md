@@ -16,7 +16,7 @@ Enhancement/Responsible Responsive Design
 * Use inline SVGs if possible
 
 ### Declaration order
-Keeping a consitent declaration order throughout the all CSS files helps
+Keeping a consistent declaration order throughout the all CSS files helps
 organization and speeds up the development process.
 
     .class {
