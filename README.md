@@ -54,22 +54,22 @@ organization and speeds up the development process.
 
 ### Comments notation
 Keep files as simple, short and modular as possible.
-Each one has a heading:
+Each one has a heading, followed by two blank lines. If a file consists of more than one module/sections, use this style to separate them. Then this heading-style is preceded by three blank lines.
 
     /*------------------------------------*\
-        File Heading
+        File or Module/Section Heading
     \*------------------------------------*/
 
-Each section in a file has a heading. I also use this style for all my explanatory comments
+Use this style for all explanatory and multi-line comments
 
     /**
-    * Section heading or explanatory comment
+    * Explanatory comment
+    * Can be multi-line
     */
     .class {
         position: relative;
     }
 
-Each section is followed by two blank lines.
 Sometimes one just needs a short, inline comment:
 
     .class {
