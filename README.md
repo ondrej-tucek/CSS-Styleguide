@@ -63,9 +63,9 @@ Each one has a heading, followed by two blank lines. If a file consists of more 
 Use this style for all explanatory and multi-line comments
 
     /**
-    * Explanatory comment
-    * Can be multi-line
-    */
+     * Explanatory comment
+     * Can be multi-line
+     */
     .class {
         position: relative;
     }
